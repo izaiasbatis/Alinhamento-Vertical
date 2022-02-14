@@ -1,7 +1,8 @@
 #container{
     position: relative;
     background-image: url(../Imagens/target.img);
-    height: 100vh;
+    background-size: 100% 100%;
+    height: 100vh; /*se a imagem acionar uma barra de rolagem, basta reduzir o vh para poucos mais de 95*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -9,8 +10,15 @@
 #conteudo{
     position: absolute;
     background-color: black;
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(50% 50%);
+    
+    
 
 
 }
