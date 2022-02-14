@@ -16,7 +16,7 @@
     left: 50%;/*quando realizo um left 50% se trata do posicionamento que ele ficara por ser absolute*/
     top: 50%;/*quando realizo um top 50% se trata do posicionamento que ele ficara por ser absolute*/
 
-    transform: translate(50% 50%);
+    transform: translate(-50% -50%);/*Aqui você consegue centralizar uma box dentro de outra box*/
 }
 
 .pai-p{
