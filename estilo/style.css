@@ -13,12 +13,20 @@
     height: 100px;
     width: 100px;
 
-    left: 50%;
-    top: 50%;
+    left: 50%;/*quando realizo um left 50% se trata do posicionamento que ele ficara por ser absolute*/
+    top: 50%;/*quando realizo um top 50% se trata do posicionamento que ele ficara por ser absolute*/
 
     transform: translate(50% 50%);
-    
-    
+}
 
-
+.pai-p{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pai-p > p{
+    
+    text-align: center;
+    color: aliceblue;
 }
